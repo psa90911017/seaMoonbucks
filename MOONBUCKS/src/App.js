@@ -2,16 +2,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './layouts/Layout';
 import Main from './pages/Main';
 import Menus from './pages/Menus';
-import DessertMenus from './pages/DessertMenus';
-import DessertDetail from './pages/DessertDetail';
-import DessertRegist from './pages/DessertRegist';
-import DessertModify from './pages/DessertModify';
-
 import MenuDetail from './pages/MenuDetail';
 import MenuRegist from './pages/MenuRegist';
 import MenuModify from './pages/MenuModify';
 import Login from './pages/Login';
 import Error from './pages/Error';
+import DessertMenus from './pages/DessertMenus';
+import DessertDetail from './pages/DessertDetail';
+import DessertRegist from './pages/DessertRegist';
+import DessertModify from './pages/DessertModify';
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
